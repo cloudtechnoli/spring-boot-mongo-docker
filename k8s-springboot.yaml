@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: dockerhandson/spring-boot-mongo:1
+        image: cloudocker123456/spring-boot-mongo-k8s:TAG
         resources:
           requests:
             cpu: 200m
